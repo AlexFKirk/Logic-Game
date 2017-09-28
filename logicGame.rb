@@ -163,6 +163,7 @@ def first_R1
   third_num = gets.chomp!
   puts "My next number is 40"
   puts "Please enter your next number"
+  fourth_num = gets.chomp!
   puts "My next number is 51. I win!!"
   another_game
 end
