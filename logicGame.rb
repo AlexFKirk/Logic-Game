@@ -1,7 +1,7 @@
 def target_Fiftyone
 puts "What would you like the target number to be? "
-target = gets.chomp!
-if target = 51
+target = gets.chomp!.to_i
+if target == 51
   puts "Great my favourite number!"
   first_player
 else
@@ -9,6 +9,7 @@ else
   target_Fiftyone
 end
 end
+
 def first_player
 puts "Would you like to go first? "
 first = gets.chomp!
