@@ -30,12 +30,15 @@ def second_R1
   if 
     first_num.to_i < 7
   puts "My first number is 7"
+    second_R2
 elsif 
   first_num.to_i == 7
   puts "Okay, you win!"
+    another_game
 else
 first_num.to_i < 10
 puts " My first number is 18"
+    second_R2
 # at end of round my number is 18 or I have lost, player 1 can only okay 19-28
 end
 end
@@ -46,6 +49,7 @@ def second_R2
   if 
     second_num.to_i < 18
   puts "My next number is 18"
+    second_R3
 elsif 
 second_num.to_i < 29
 puts "My next number is 29"
